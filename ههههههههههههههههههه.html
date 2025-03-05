@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رسالة هامة</title>
+    <style>
+        body {
+            background-color: #2d3e3f; /* رمادي غامق */
+            color: #d4edda; /* أخضر فاتح */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            background-color: #145a32; /* أخضر غامق */
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #117a45;
+        }
+        #result {
+            display: none;
+            margin-top: 20px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>هل أذن المغرب؟</h1>
+    <button onclick="showResult()">نعم</button>
+
+    <div id="result">
+        <p>تم تعبئة الكرش بنجاح</p>
+        <p>- علياء الحربي</p>
+        <img src="c:\Users\علياء\OneDrive - RiyadhGirls\المستندات\صورة واتساب بتاريخ 1446-09-05 في 05.52.23_2fe29aba.jpg" alt="صورة جيري">
+    </div>
+
+    <script>
+        function showResult() {
+            document.getElementById("result").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
